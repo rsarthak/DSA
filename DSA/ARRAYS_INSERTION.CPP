@@ -16,7 +16,7 @@ for(int i=n-1;i>=idx;i--){
 a[i+1]=a[i];
 a[idx]=x;
 }
-cout<<a[n]/a[0];
+cout<<sizeof(a)/sizeof(a[0]);
 
 
 
